@@ -6,11 +6,12 @@ info:
   description: REST API for managing jobs with JWT authentication
 
 servers:
-  - url: http://localhost:3000/api/v1
-    description: Local development server
-  
+  servers:
   - url: https://jobs-api-0zk0.onrender.com/api/v1
     description: Production server
+
+  - url: http://localhost:3000/api/v1
+    description: Local development server
 
 paths:
   /auth/register:
