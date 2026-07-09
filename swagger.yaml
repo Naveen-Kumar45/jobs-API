@@ -6,7 +6,6 @@ info:
   description: REST API for managing jobs with JWT authentication
 
 servers:
-  servers:
   - url: https://jobs-api-0zk0.onrender.com/api/v1
     description: Production server
 
